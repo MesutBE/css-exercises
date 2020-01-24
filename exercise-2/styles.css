@@ -1,9 +1,53 @@
 /* The only reset you’ll ever need */
 
-body {
+body{
+  background-color: grey;
   margin: 0;
+  align-items: center;
 }
 
 * {
   box-sizing: border-box;
+}
+
+.container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+}
+
+.items{
+  width: 31%;
+  height: 400px;
+  background-color: honeydew;
+  margin: 60px auto 60px 25px;
+  padding: 15px;
+  display: flex;
+}
+
+.item{
+display: flex;
+}
+
+button{
+  float: right;
+  margin: 5px;
+  padding: 5px 15px 5px 15px;
+  border-radius: 10px;
+}
+
+.button_ok{
+  background-color: grey;
+}
+
+.button_nope{
+  background-color: rgb(78, 60, 240);
+  color: white;
+}
+
+.img{
+  width: 50px;
+  height: 50px;
 }
